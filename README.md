@@ -10,18 +10,7 @@ We introduce the SuMe dataset, the first dataset towards summarizing biomedical 
 ### Example
 In the following example we see an example of an entry in the SuMe dataset. Some supporting text was removed to save space. The input is the supporting sentences with the main two entities. The output is the relation type and a sentence concluding the mechanism underlying the relationship.
 
-<!-- <img src="https://github.com/MHDBST/SuMe/blob/main/Dataexample.drawio-18.pdf" alt="Image of PerSenT stats"/> -->
-<!-- <a href="https://github.com/MHDBST/SuMe/blob/main/Dataexample.drawio-18.pdf"></a> -->
-<!-- <script src="https://github.com/MHDBST/SuMe/blob/main/Dataexample.drawio-18.pdf"></script> -->
-<!-- <a class="js-navigation-open Link--primary" title="Dataexample.drawio-18.pdf" data-pjax="#repo-content-pjax-container" href="https://github.com/MHDBST/SuMe/blob/main/Dataexample.drawio-18.pdf">Dataexample.drawio-18.pdf</a> -->
-<!-- <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
-                                                        <span class="css-truncate css-truncate-target d-block width-fit">
-                                                            <a class="js-navigation-open Link--primary" title="Dataexample.drawio-18.pdf" data-pjax="#repo-content-pjax-container" href="https://github.com/MHDBST/SuMe/blob/main/Dataexample.drawio-18.pdf">Dataexample.drawio-18.pdf</a>
-                                                        </span>
-                                                    </div> -->
-                                                    
-<!-- <embed src="assets/pdf/example.pdf" width="500" height="500" type='application/pdf'></object> -->
-<!-- <embed src="assets/pdf/example.pdf" width="500" height="375" type="application/pdf"> -->
+
 <img src="assets/img/example.png" alt="Image of SuMe stats"/>
 
 ### Dataset Statistics
@@ -32,7 +21,7 @@ We construct SuMe using biomedical abstracts from the PubMed open access subset.
 3. Filtering for Mechanism Sentences
 We separate out the abstracts for which the conclusion sentences are predicted to have non-mechanism related conclusions as additional related data that can be use for pretraining the generation models we eventually train for the mechanism summarization task. Dataset Statistics: Each dataset contains a number of unique abstracts, a supporting set, a mechanism sentence a pair of entities. The first entity is called the regulator entity (regulator) and the second one is called the regulated entity (regulated)
 
-<img src="https://github.com/StonyBrookNLP/SuMe/blob/main/assets/img/stats.png" alt="Image of SuMe stats"/>
+<img src="/assets/img/stats.png" alt="Image of SuMe stats"/>
 
 
 ### Download the data
