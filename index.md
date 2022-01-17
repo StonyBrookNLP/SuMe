@@ -20,7 +20,7 @@ In the following example we see an example of an entry in the SuMe dataset. Some
                                                         </span>
                                                     </div> -->
                                                     
-<object data="/assets/pdf/example.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object data="assets/pdf/example.pdf" width="200" height="200" type='application/pdf'></object>
 
 ### Dataset Statistics
 We construct SuMe using biomedical abstracts from the PubMed open access subset. Starting from 1.1M scientific papers, we followed the following sequence of bootstrapping steps to prepare the SuMe dataset. 
@@ -28,18 +28,20 @@ We construct SuMe using biomedical abstracts from the PubMed open access subset.
 2. Extracting Main Entities & Relation. We run biomedical relation extractor, REACH which can identify entities and the relations between entities.
 3. Filtering for Mechanism Sentences
 We separate out the abstracts for which the conclusion sentences are predicted to have non-mechanism related conclusions as additional related data that can be use for pretraining the generation models we eventually train for the mechanism summarization task. Dataset Statistics: Each dataset contains a number of unique abstracts, a supporting set, a mechanism sentence a pair of entities. The first entity is called the regulator entity (regulator) and the second one is called the regulated entity (regulated)
-<a href="/assets/img/stats.png"><img src="/assets/img/stats.png" alt="Image of SuMe stats"/></a>
+
+<a href="assets/img/stats.png"><img src="/assets/img/stats.png" alt="Image of SuMe stats"/></a>
 
 
 ### Download the data
-<!-- You can download the data set URLs from [here](https://github.com/MHDBST/PerSenT/blob/main/train_dev_test_URLs.pkl)
+The dataset contains four different subsets. The first is the training set with about 21k abstracts. You can download training set from <a href="/#">here</a>.
 
-The processed version of the dataset which contains used paragraphs, document-level, and paragraph-level labels can be download separately as [train](https://github.com/MHDBST/PerSenT/blob/main/train.csv), [dev](https://github.com/MHDBST/PerSenT/blob/main/dev.csv), [random test](https://github.com/MHDBST/PerSenT/blob/main/random_test.csv), and [fixed test](https://github.com/MHDBST/PerSenT/blob/main/fixed_test.csv).
+The validation set which the hyperparameters are tuned with can be found <a href="/#">here</a>. 
 
-To recreat the results from the paper you can follow the instructions in the readme file from the [source code](https://github.com/StonyBrookNLP/PerSenT/tree/main/pre_post_processing_steps). -->
+The test sets will be released later.
+
 
 ### Liked us? Cite us!
-
+Coming soon!
 <!--  Please use the following bibtex entry:
 
    ```
