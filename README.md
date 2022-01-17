@@ -21,7 +21,7 @@ We construct SuMe using biomedical abstracts from the PubMed open access subset.
 3. Filtering for Mechanism Sentences
 We separate out the abstracts for which the conclusion sentences are predicted to have non-mechanism related conclusions as additional related data that can be use for pretraining the generation models we eventually train for the mechanism summarization task. Dataset Statistics: Each dataset contains a number of unique abstracts, a supporting set, a mechanism sentence a pair of entities. The first entity is called the regulator entity (regulator) and the second one is called the regulated entity (regulated)
 
-<img src="/assets/img/stats.png" alt="Image of SuMe stats"/>
+<img src="assets/img/stats.png" alt="Image of SuMe stats"/>
 
 
 ### Download the data
