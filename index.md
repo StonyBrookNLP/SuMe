@@ -3,7 +3,7 @@
 
 <!-- You can find our paper [here](Link)  -->
 
-Mohaddeseh Bastan, Mihai Surdeanu, Niranjan Balasubramanian. 
+Mohaddeseh Bastan, Nishant Shankar, Mihai Surdeanu, Niranjan Balasubramanian. 
 
 We introduce the SuMe dataset, the first dataset towards summarizing biomedical mechanisms and the underlying relations between entities. The dataset contains 22K mechanism summarization instances collected semi-automatically, an evaluation partition of 125 instances that were corrected by domain experts. We also create a conclusion generation task from the larger set of 611K abstracts which we use as a pretraining task for mechanism generation models.
 
@@ -29,7 +29,7 @@ We construct SuMe using biomedical abstracts from the PubMed open access subset.
 3. Filtering for Mechanism Sentences
 We separate out the abstracts for which the conclusion sentences are predicted to have non-mechanism related conclusions as additional related data that can be use for pretraining the generation models we eventually train for the mechanism summarization task. Dataset Statistics: Each dataset contains a number of unique abstracts, a supporting set, a mechanism sentence a pair of entities. The first entity is called the regulator entity (regulator) and the second one is called the regulated entity (regulated)
 
-<a href="assets/img/stats.png"><img src="/assets/img/stats.png" alt="Image of SuMe stats"/></a>
+<img src="/assets/img/stats.png" alt="Image of SuMe stats"/>
 
 
 ### Download the data
