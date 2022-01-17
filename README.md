@@ -21,8 +21,11 @@ In the following example we see an example of an entry in the SuMe dataset. Some
                                                     </div> -->
                                                     
 <!-- <embed src="assets/pdf/example.pdf" width="500" height="500" type='application/pdf'></object> -->
-<embed src="assets/pdf/example.pdf" width="500" height="375" type="application/pdf">
+<!-- <embed src="assets/pdf/example.pdf" width="500" height="375" type="application/pdf"> -->
+<img src="assets/img/example.png" alt="Image of SuMe stats"/>
+
 ### Dataset Statistics
+
 We construct SuMe using biomedical abstracts from the PubMed open access subset. Starting from 1.1M scientific papers, we followed the following sequence of bootstrapping steps to prepare the SuMe dataset. 
 1. Finding Conclusion Sentences
 2. Extracting Main Entities & Relation. We run biomedical relation extractor, REACH which can identify entities and the relations between entities.
