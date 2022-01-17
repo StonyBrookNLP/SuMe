@@ -20,8 +20,8 @@ In the following example we see an example of an entry in the SuMe dataset. Some
                                                         </span>
                                                     </div> -->
                                                     
-<object data="assets/pdf/example.pdf" width="200" height="200" type='application/pdf'></object>
-
+<!-- <embed src="assets/pdf/example.pdf" width="500" height="500" type='application/pdf'></object> -->
+<embed src="assets/pdf/example.pdf" width="500" height="375" type="application/pdf">
 ### Dataset Statistics
 We construct SuMe using biomedical abstracts from the PubMed open access subset. Starting from 1.1M scientific papers, we followed the following sequence of bootstrapping steps to prepare the SuMe dataset. 
 1. Finding Conclusion Sentences
@@ -29,7 +29,7 @@ We construct SuMe using biomedical abstracts from the PubMed open access subset.
 3. Filtering for Mechanism Sentences
 We separate out the abstracts for which the conclusion sentences are predicted to have non-mechanism related conclusions as additional related data that can be use for pretraining the generation models we eventually train for the mechanism summarization task. Dataset Statistics: Each dataset contains a number of unique abstracts, a supporting set, a mechanism sentence a pair of entities. The first entity is called the regulator entity (regulator) and the second one is called the regulated entity (regulated)
 
-<img src="/assets/img/stats.png" alt="Image of SuMe stats"/>
+<img src="https://github.com/StonyBrookNLP/SuMe/blob/main/assets/img/stats.png" alt="Image of SuMe stats"/>
 
 
 ### Download the data
