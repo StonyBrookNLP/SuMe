@@ -33,9 +33,11 @@ We separate out the abstracts for which the conclusion sentences are predicted t
 
 
 ### Download the data
-The dataset contains four different subsets. The first is the training set with about 21k abstracts. You can download training set from <a href="/#">here</a>.
+The dataset contains four different subsets. 
 
-The validation set which the hyperparameters are tuned with can be found <a href="/#">here</a>. 
+The training set with about 21k abstracts. You can download training set from <a href="/#">here</a>.
+
+The validation set with about 1k abstract which the hyperparameters are tuned with can be found <a href="/#">here</a>. 
 
 The test sets will be released later.
 
