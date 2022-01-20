@@ -36,15 +36,4 @@ The test sets will be released later.
 
 ### Liked us? Cite us!
 Coming soon!
-<!--  Please use the following bibtex entry:
 
-   ```
-@inproceedings{bastan2020authors,
-      title={Author's Sentiment Prediction}, 
-      author={Mohaddeseh Bastan and Mahnaz Koupaee and Youngseo Son and Richard Sicoli and Niranjan Balasubramanian},
-      year={2020},
-      eprint={2011.06128},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-   ``` -->
