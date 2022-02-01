@@ -27,11 +27,13 @@ We separate out the abstracts for which the conclusion sentences are predicted t
 ### Download the data
 The dataset contains four different subsets. 
 
-The training set with about 21k abstracts. You can download training set from <a href="/#">here</a>.
+The training set with about 21k abstracts. You can download training set from <a href="/home/mbastan/XP/ie_t5/generation_out_dev_v8/afterpretrain_pretrain_all_3/0">here</a>.
 
-The validation set with about 1k abstract which the hyperparameters are tuned with can be found <a href="/#">here</a>. 
+The validation set with about 1k abstract which the hyperparameters are tuned with can be found <a href="https://drive.google.com/file/d/1RKvoQqpHrOoOnLgizr9YtTIsioCHTRRl/view?usp=sharing">here</a>. 
 
 The test sets will be released later.
+
+The best model, which is pretrained with pretraining data and then fine tuned on training set is accessible <a href="https://drive.google.com/drive/folders/1yKqB-2X35f3DByqwgt5CCipPt0liIQKO?usp=sharing">here</a>.
 
 
 ### Liked us? Cite us!
