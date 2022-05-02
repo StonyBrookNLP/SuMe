@@ -11,7 +11,7 @@ SuMe is the first dataset towards summarizing biomedical mechanisms and the unde
 In the following example we see an example of an entry in the SuMe dataset. Some supporting text was removed to save space. The input is the supporting sentences with the main two entities. The output is the relation type and a sentence concluding the mechanism underlying the relationship.
 
 
-<img src="assets/img/example.png" alt="Image of SuMe stats"/>
+<img src="assets/img/example_diagram_v3.pdf" alt="Image of SuMe stats"/>
 
 ### Dataset Statistics
 
