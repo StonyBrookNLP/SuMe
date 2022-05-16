@@ -37,5 +37,14 @@ The best model, which is pretrained with pretraining data and then fine tuned on
 
 
 ### Liked us? Cite us!
-Coming soon!
+
+Please use the following bibtex entry:
+```
+@article{bastan2022sume,
+  title={SuMe: A Dataset Towards Summarizing Biomedical Mechanisms},
+  author={Bastan, Mohaddeseh and Shankar, Nishant and Surdeanu, Mihai and Balasubramanian, Niranjan},
+  journal={arXiv preprint arXiv:2205.04652},
+  year={2022}
+}
+```
 
