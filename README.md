@@ -1,7 +1,7 @@
 ## What is SuMe?
 ### SuMe is a dataset towards Summarizing Biomedical Mechanisms.
 
-<!-- You can find our paper [here](Link)  -->
+ You can find our paper <a href='https://arxiv.org/abs/2205.04652'> here </a>
 
 <!-- Mohaddeseh Bastan, Nishant Shankar, Mihai Surdeanu, Niranjan Balasubramanian.  -->
 
@@ -34,6 +34,9 @@ The validation set with about 1k abstract which the hyperparameters are tuned wi
 The test sets will be released later.
 
 The best model, which is pretrained with pretraining data and then fine tuned on training set is accessible <a href="https://drive.google.com/drive/folders/1yKqB-2X35f3DByqwgt5CCipPt0liIQKO?usp=sharing">here</a>.
+
+### License
+The dataset is collected using open source NIH active directory for PMC papers. We generally follow their license as mentioned <a href='https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/'> here </a>
 
 
 ### Liked us? Cite us!
