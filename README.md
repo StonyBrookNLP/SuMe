@@ -31,7 +31,7 @@ The training set with about 21k abstracts. You can download training set from <a
 
 The validation set with about 1k abstract which the hyperparameters are tuned with can be found <a href="https://drive.google.com/file/d/1RKvoQqpHrOoOnLgizr9YtTIsioCHTRRl/view?usp=sharing">here</a>. 
 
-The test sets will be released later.
+The test sets is accessible via this link <a href="https://drive.google.com/file/d/10BsGKcZ-PCAs079fVn8U1KScdH2wNm8_/view?usp=sharing"> here </a>
 
 The best model, which is pretrained with pretraining data and then fine tuned on training set is accessible <a href="https://drive.google.com/drive/folders/1yKqB-2X35f3DByqwgt5CCipPt0liIQKO?usp=sharing">here</a>.
 
