@@ -1,7 +1,7 @@
 ## What is SuMe?
 ### SuMe is a dataset towards Summarizing Biomedical Mechanisms.
 
- You can find our paper <a href='https://arxiv.org/abs/2205.04652'> here </a>
+ This is the official page for the paper <a href='https://aclanthology.org/2022.lrec-1.748/'> SuMe: A Dataset Towards Summarizing Biomedical Mechanisms </a>,  accepted at LREC2022.
 
 <!-- Mohaddeseh Bastan, Nishant Shankar, Mihai Surdeanu, Niranjan Balasubramanian.  -->
 
