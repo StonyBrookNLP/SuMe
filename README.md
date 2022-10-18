@@ -1,53 +1,58 @@
-## What is SuMe?
-### SuMe is a dataset towards Summarizing Biomedical Mechanisms.
+## What is BioNLI?
+### BioNLI is a biomedical NLI dataset Using lexico-semantic constraints for adversarial Examples
 
- You can find our paper <a href='https://arxiv.org/abs/2205.04652'> here </a>
+ <!-- You can find our paper <a href='https://arxiv.org/abs/2205.04652'> here </a> -->
 
 <!-- Mohaddeseh Bastan, Nishant Shankar, Mihai Surdeanu, Niranjan Balasubramanian.  -->
 
-SuMe is the first dataset towards summarizing biomedical mechanisms and the underlying relations between entities. The dataset contains 22K mechanism summarization instances collected semi-automatically and an evaluation partition of 125 instances that were corrected by domain experts. In addition it contains larger set of 611K abstracts for conclusion generation which we use as a pretraining task for mechanism generation models.
+BioNLI is the first dataset in biomedical natural language inference. This dataset contains abstracts from biomedical literature and mechanistic premises generated with nine different strategies. 
 
 ### Example
-In the following example we see an example of an entry in the SuMe dataset. Some supporting text was removed to save space. The input is the supporting sentences with the main two entities. The output is the relation type and a sentence concluding the mechanism underlying the relationship.
+In the following example we see an example of an entry in the BioNLI dataset. Some supporting text was removed to save space. The premise is a set of sentences talking about two biomedical entiteis. The consistent hypothesis is the original conclusion sentence from the abstract paper, the inconsistent hypothesis is the generated sentence with one of the different nine strategies.
+
+### Coming Soon ###
 
 
-<img src="assets/img/dataexample_v3.drawio.svg" alt="Image of SuMe stats"/>
+<!-- <img src="assets/img/dataexample_v3.drawio.svg" alt="Image of SuMe stats"/> -->
 
 ### Dataset Statistics
 
-We construct SuMe using biomedical abstracts from the PubMed open access subset. Starting from 1.1M scientific papers, we followed the following sequence of bootstrapping steps to prepare the SuMe dataset. 
-1. Finding Conclusion Sentences
-2. Extracting Main Entities & Relation. We run biomedical relation extractor, REACH which can identify entities and the relations between entities.
-3. Filtering for Mechanism Sentences
-We separate out the abstracts for which the conclusion sentences are predicted to have non-mechanism related conclusions as additional related data that can be use for pretraining the generation models we eventually train for the mechanism summarization task. Dataset Statistics: Each dataset contains a number of unique abstracts, a supporting set, a mechanism sentence a pair of entities. The first entity is called the regulator entity (regulator) and the second one is called the regulated entity (regulated)
+There are two different versions of this dataset. One is the large distribution which contains all possible perturbations and the other is the balanced distirbution. They both share the same test set. For the full distribution, we generate as many perturbations as possible for dev and test set, but for training each instance is perturbed once.
+#### Full Distribution
 
-<img src="assets/img/stats.png" alt="Image of SuMe stats"/>
+<img src="assets/img/full.png" alt="Image of full stats"/>
+
+#### Balanced Distribution
+
+<img src="assets/img/balanced.png" alt="Image of balanced stats"/>
+
+
 
 
 ### Download the data
-The dataset contains four different subsets. 
 
-The training set with about 21k abstracts. You can download training set from <a href="https://drive.google.com/file/d/13tewsb9IZOKvbvGyo199hJzg-IPwRAoO/view?usp=sharing">here</a>.
+The dataset can be downloaded here:
 
-The validation set with about 1k abstract which the hyperparameters are tuned with can be found <a href="https://drive.google.com/file/d/1RKvoQqpHrOoOnLgizr9YtTIsioCHTRRl/view?usp=sharing">here</a>. 
+The full set can be downloaded from <a href="https://drive.google.com/drive/folders/1-wNvAYs4ULJFNkeVHaUJM3U7slX-vtiB?usp=sharing">here</a>.
 
-The test sets is accessible via this link <a href="https://drive.google.com/file/d/10BsGKcZ-PCAs079fVn8U1KScdH2wNm8_/view?usp=sharing"> here </a>
+The balanced set can be downloaded from <a href="https://drive.google.com/drive/folders/187W4RCk1cJnKKO95NPljxZYelUgMOHf8?usp=sharing">here</a>. 
 
-The best model, which is pretrained with pretraining data and then fine tuned on training set is accessible <a href="https://drive.google.com/drive/folders/1yKqB-2X35f3DByqwgt5CCipPt0liIQKO?usp=sharing">here</a>.
+To access the test set please contact <a href = "mailto: mbastan@cs.stonybrook.edu">the author</a>
 
 ### License
-The dataset is collected using open source NIH active directory for PMC papers. We generally follow their license as mentioned <a href='https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/'> here </a>
+
+This dataset is licensed under CC. 
 
 
 ### Liked us? Cite us!
 
 Please use the following bibtex entry:
 ```
-@article{bastan2022sume,
+<!-- @article{bastan2022sume,
   title={SuMe: A Dataset Towards Summarizing Biomedical Mechanisms},
   author={Bastan, Mohaddeseh and Shankar, Nishant and Surdeanu, Mihai and Balasubramanian, Niranjan},
   journal={arXiv preprint arXiv:2205.04652},
   year={2022}
-}
+} -->
 ```
 
