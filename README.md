@@ -43,11 +43,20 @@ The dataset is collected using open source NIH active directory for PMC papers. 
 
 Please use the following bibtex entry:
 ```
-@article{bastan2022sume,
-  title={SuMe: A Dataset Towards Summarizing Biomedical Mechanisms},
-  author={Bastan, Mohaddeseh and Shankar, Nishant and Surdeanu, Mihai and Balasubramanian, Niranjan},
-  journal={arXiv preprint arXiv:2205.04652},
-  year={2022}
+@inproceedings{bastan-etal-2022-sume,
+    title = "{S}u{M}e: A Dataset Towards Summarizing Biomedical Mechanisms",
+    author = "Bastan, Mohaddeseh  and
+      Shankar, Nishant  and
+      Surdeanu, Mihai  and
+      Balasubramanian, Niranjan",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.748",
+    pages = "6922--6931",
+    abstract = "Can language models read biomedical texts and explain the biomedical mechanisms discussed? In this work we introduce a biomedical mechanism summarization task. Biomedical studies often investigate the mechanisms behind how one entity (e.g., a protein or a chemical) affects another in a biological context. The abstracts of these publications often include a focused set of sentences that present relevant supporting statements regarding such relationships, associated experimental evidence, and a concluding sentence that summarizes the mechanism underlying the relationship. We leverage this structure and create a summarization task, where the input is a collection of sentences and the main entities in an abstract, and the output includes the relationship and a sentence that summarizes the mechanism. Using a small amount of manually labeled mechanism sentences, we train a mechanism sentence classifier to filter a large biomedical abstract collection and create a summarization dataset with 22k instances. We also introduce conclusion sentence generation as a pretraining task with 611k instances. We benchmark the performance of large bio-domain language models. We find that while the pretraining task help improves performance, the best model produces acceptable mechanism outputs in only 32{\%} of the instances, which shows the task presents significant challenges in biomedical language understanding and summarization.",
 }
 ```
 
